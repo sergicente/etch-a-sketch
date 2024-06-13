@@ -47,7 +47,7 @@ botonBorrar.addEventListener('click', ()=> crearCuadricula(tamanoActual))
 
 //Inicio del programa
 
-crearCuadricula(32);
+crearCuadricula(12);
 
 
 
