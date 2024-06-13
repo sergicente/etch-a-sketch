@@ -1,17 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+*{
+    margin: 0;
+    font-family: "Silkscreen", monospace;
+}
+
+body{
+    background-color: #C7DFC5;
+}
+
+button{
+    background-color: #C1DBE3;
+    text-shadow: 1px 1px white;
+    border: 1px solid #373737;
+    padding: 0 10px;
+    height: 50px;
+    box-shadow: 3px 3px #8faf8d;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Silkscreen';
+    margin-top:3em;
+    font-size: 3em;
+    text-shadow: 3px 3px #8faf8d;
+
+}
+
 #container{
     display:flex;
     flex-wrap: wrap;
-    width:400px;
+    width:600px;
     margin:auto;
-    border: 1px solid #bbb;
+    border: 1px solid #373737;
+    box-shadow: 3px 3px #8faf8d;
+}
+
+#controles{
+    display:flex;
+    width:600px;
+    margin: 50px auto 0 auto;
+    justify-content: space-between;
+}
+
+#color{
+    align-items: flex-end;
+}
+
+#pizarra{
+    margin-top: 2em;
 }
 
 .grid-item{
     box-sizing: border-box;
-    border: 0.5px solid #ddd;
-
+    border: 0.5px solid #ccc;
 }
 
 .color{
     background-color: black;
+}
+
+.botonActivado{
+    background-color: white;
 }
