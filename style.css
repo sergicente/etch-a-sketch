@@ -23,7 +23,12 @@ h1{
     margin-top:3em;
     font-size: 3em;
     text-shadow: 3px 3px #8faf8d;
+}
 
+footer{
+    text-align: center;
+    font-size: 10px;
+    margin-top:20em;
 }
 
 #container{
