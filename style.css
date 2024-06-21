@@ -6,6 +6,11 @@
 
 body{
     background-color: #C7DFC5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 button{
@@ -21,31 +26,30 @@ button{
 h1{
     text-align: center;
     font-family: 'Silkscreen';
-    margin-top:3em;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 3px 3px #8faf8d;
 }
 
 footer{
     text-align: center;
     font-size: 10px;
-    margin-top:20em;
+    margin-top:5em;
 }
 
 #container{
     display:flex;
     flex-wrap: wrap;
-    width:600px;
+    width:300px;
     margin:auto;
     border: 1px solid #373737;
     box-shadow: 3px 3px #8faf8d;
 }
 
-#controles{
+.controles{
     display:flex;
-    width:600px;
-    margin: 50px auto 0 auto;
-    justify-content: space-between;
+    width:300px;
+    margin: 25px auto 0 auto;
+    justify-content: center;
 }
 
 #color{
