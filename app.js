@@ -55,7 +55,7 @@ function crearCuadricula(c) {
     contenedor.innerHTML = '';
     let cuadrados = c;
     tamanoActual = cuadrados;
-    let tamano = 300 / cuadrados;
+    let tamano = 332 / cuadrados;
     for (let i = 1; i <= cuadrados * cuadrados; i++) {
         const pixel = document.createElement('DIV');
         pixel.classList.add('grid-item');
